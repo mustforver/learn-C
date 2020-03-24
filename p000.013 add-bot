@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(void)
+{
+	long num;
+	long sum = 0L;
+	int status;
+
+	printf("input:");
+
+	while (scanf("%ld", &num))
+	{
+		sum += num;
+		printf("input:");
+	}
+
+	printf("output = %ld\n", sum);
+
+	return 0;
+}
